@@ -1,0 +1,44 @@
+
+.container{
+    display:flex;
+    height : 90vh;
+    width: 100vw;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items : center;
+    
+}
+.active.panel{
+     border-radius: 10%;
+    height: 70vh;
+    width: 60vw;
+    background-size: cover;
+    margin: 5px;
+}
+.panel{
+    border-radius: 40%;
+    height: 70vh;
+    width : 7vw;
+    background-size: cover;
+    margin: 5px;
+    cursor: pointer;
+}
+.active.panel h2{
+    position:relative;
+    top:50vh;
+    color: white;
+    left:  50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    opacity: 1;
+    
+}
+.panel h2{
+    position:relative;
+    top:50vh;
+    color: white;
+    left:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    opacity:0;
+}
